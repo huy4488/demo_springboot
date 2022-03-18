@@ -39,7 +39,7 @@ public class ClassroomController {
 
 //
 	@PostMapping("/add-classroom")
-	public void addStudent(@RequestBody Classroom newClassroom) {
+	public void addClassroom(@RequestBody Classroom newClassroom) {
 
 		classroomService.addNewClassroom(newClassroom);
 	}
